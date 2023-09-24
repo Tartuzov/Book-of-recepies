@@ -23,9 +23,9 @@
         </Grid.ColumnDefinitions>
         <Label Grid.ColumnSpan="3" Name="foodname" Content="Назва вашого рецепту" HorizontalAlignment="Center" FontSize="25"></Label>
         <Label Grid.Row="2" Content="Інгредієнти:" HorizontalAlignment="Center" FontSize="18"></Label>
-        <TextBox Background="Beige" Grid.Row="3" Name="ingredients" BorderBrush="WhiteSmoke" IsReadOnly="True" FontSize="13" Margin="5,0,5,5"></TextBox>
+        <TextBox Background="LightYellow" Grid.Row="3" Name="ingredients" BorderBrush="WhiteSmoke" IsReadOnly="True" FontSize="13" Margin="5,0,5,5"></TextBox>
         <Label Grid.Row="4" Grid.ColumnSpan="2" Content="Приготування" HorizontalAlignment="Center" FontSize="25"/>
-        <TextBox Background="Beige" Grid.Row="5" Name="guide" Grid.ColumnSpan="2" BorderBrush="WhiteSmoke" IsReadOnly="True" FontSize="13" Margin="5,5,5,5"></TextBox>
+        <TextBox Background="LightYellow" Grid.Row="5" Name="guide" Grid.ColumnSpan="2" BorderBrush="WhiteSmoke" IsReadOnly="True" FontSize="13" Margin="5,5,5,5"></TextBox>
         <Button Grid.Row="6" Height="30" Width="100" Content="На головну" FontSize="15" Click="Button_Click"/>
         <Button Grid.Row="6" Height="30" Width="100" Content="Експорт" FontSize="15" Click="Button_Click_1" Grid.Column="1"/>
         <Rectangle Grid.Row="3" Grid.Column="1" Width="280" Height="200" Margin="30,20,40,30" >
