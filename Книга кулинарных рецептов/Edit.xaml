@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Книга_кулинарных_рецептов"
         mc:Ignorable="d"
                 Title="Зміна рецепту" Height="532" Width="550">
-    <StackPanel Orientation="Vertical" Background="Bisque">
+    <StackPanel Orientation="Vertical" Background="Linen">
         <Label Content="Зміна рецепту:" HorizontalContentAlignment="Center" FontSize="25"></Label>
         <StackPanel Orientation="Horizontal"  Margin="0,10,0,0">
             <Label Content="Тип страви:" HorizontalContentAlignment="Left" FontSize="20" Margin="10,0,0,0"></Label>
@@ -43,7 +43,6 @@
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
             <Button Content="Змінити" FontSize="18" Width="100" Height="40" Click="Button_Click"></Button>
-            <Button Margin="100,0,0,0" Content="На головну" FontSize="18" Width="100" Height="40" Click="Button_Click_1"></Button>
         </StackPanel>
     </StackPanel>
 </Window>
