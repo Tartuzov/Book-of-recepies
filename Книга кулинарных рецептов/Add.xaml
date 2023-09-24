@@ -1,0 +1,48 @@
+﻿<Window x:Class="Книга_кулинарных_рецептов.Add"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Книга_кулинарных_рецептов"
+        mc:Ignorable="d"
+            Title="Додавання рецепту" Height="532" Width="550">
+    <StackPanel Orientation="Vertical" Background="NavajoWhite">
+        <Label Content="Додавання рецепту:" HorizontalContentAlignment="Center" FontSize="25"></Label>
+        <StackPanel Orientation="Horizontal"  Margin="0,10,0,0">
+            <Label Content="Тип страви:" HorizontalContentAlignment="Center" FontSize="20" Margin="10,0,0,0"></Label>
+            <ComboBox Name="typefood" FontSize="20" Margin="29,0,0,0">
+                <ComboBoxItem Content="Перші страви" IsSelected="True"/>
+                <ComboBoxItem Content="Другі страви"/>
+                <ComboBoxItem Content="Салати"/>
+                <ComboBoxItem Content="Закуски"/>
+                <ComboBoxItem Content="Десерти"/>
+                <ComboBoxItem Content="Напої"/>
+                <ComboBoxItem Content="Випічка"/>
+                <ComboBoxItem Content="Соуси"/>
+            </ComboBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+            <Label Content="Назва кухні:" HorizontalContentAlignment="Center" FontSize="20" Margin="10,0,0,0"></Label>
+            <TextBox Margin="25,0,0,0" Name="kitchenname" Width="300" FontSize="14" Background="PaleGoldenrod"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+            <Label Content="Назва страви:" HorizontalContentAlignment="Center" FontSize="20" Margin="10,0,0,0"></Label>
+            <TextBox Margin="9,0,0,0" Name="foodname" Width="300" FontSize="14" Background="PaleGoldenrod"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+            <Label Content="Посилання на фото:" HorizontalContentAlignment="Center" FontSize="20" Margin="10,0,0,0"></Label>
+            <TextBox Name="photolink" Width="300" FontSize="10" Background="PaleGoldenrod"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0" Height="80">
+            <Label Content="Інгредієнти:" HorizontalContentAlignment="Center" FontSize="20" Margin="10,0,0,0"></Label>
+            <TextBox Margin="26,0,0,0" Background="PaleGoldenrod" Name="ingredients" Width="300" FontSize="14" TextWrapping="Wrap" Height="80"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0" Height="100">
+            <Label Content="Приготування:" HorizontalContentAlignment="Center" FontSize="20" Margin="10,0,0,0"></Label>
+            <TextBox Background="PaleGoldenrod" Name="guide" Width="300" FontSize="14" Height="100" TextWrapping="Wrap"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <Button Content="Додати" FontSize="18" Width="100" Height="40" Click="Button_Click"></Button>
+        </StackPanel>
+    </StackPanel>
+</Window>
