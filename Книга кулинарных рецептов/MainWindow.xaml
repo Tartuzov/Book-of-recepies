@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Книга_кулинарных_рецептов"
         mc:Ignorable="d"
-        Title="Головне вікно" Name="main" Height="450" Width="800">
+        Title="Головне вікно" Name="main" Height="575" Width="800">
     <StackPanel Orientation="Vertical" Background="Beige">
         <Menu Name="menu" Height="50" Background="BlanchedAlmond">
             <MenuItem Name="Recept" Header="Рецепти" Height="50" FontSize="18">
